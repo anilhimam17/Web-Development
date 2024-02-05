@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* Utilising the CSS Group Selector */
+h1, h2 {
+    color: turquoise;
+}
+
+/* Utilising Parent-Child Rule */
+.box > .done {
+    color: royalblue;
+}
+
+/* Utilising the Descendant Combination */
+.box .list {
+    color:chocolate;
+}
+
+/* Utilising Chaning Selectors to reference specific html elements */
+li.done {
+    color: seagreen;
+}
+
+/* Utilising Combining Selectors */
+ul p.done {
+    color: steelblue;
+    font-size: 0.5rem;
+}
