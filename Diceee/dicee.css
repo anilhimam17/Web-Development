@@ -1,0 +1,81 @@
+/* Background Color */
+body {
+    background-color: #277714;
+}
+
+/* Grid Layout CSS */
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    top: -30px;
+}
+
+/* -------------------------------------------- */
+
+/* Row - 1 Main Heading */
+.main-heading {
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
+}
+
+.title {
+    color: #285EF4;
+    background-color: #45A8F4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px;
+}
+
+/* -------------------------------------------- */
+
+/* Row - 2 Player Title */
+.player-heading {
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+    position: relative;
+    top: -40px;
+    background-color: aliceblue;
+    height: 200px;
+}
+
+.image-title-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.playerElement {
+    color: #F54C4D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 35px;
+}
+
+/* -------------------------------------------- */
+
+/* Row - 3 Player Dice Image */
+.dice-images {
+    grid-row: 3 / 4;
+    grid-column: 1 / 5;
+    background-color: antiquewhite;
+    position: relative;
+    top: -20px;
+}
+
+.image-display-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
