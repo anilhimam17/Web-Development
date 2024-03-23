@@ -1,0 +1,4 @@
+Hello, World from Node.js
+
+Modifications:
+This file is being read using the fileSystem Native Module
