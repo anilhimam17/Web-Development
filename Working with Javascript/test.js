@@ -142,3 +142,64 @@ for (var i = 0; i < 6; i++) {
 // ---------------------------------------------------------------------------
 
 // Comparison Operators
+
+var sig1 = Math.floor(Math.random() * 2) + 1
+var sig2 = Math.floor(Math.random() * 2) + 1
+
+if (sig1 > 1 && sig2 > 1) {
+    console.log("AND Operation Available")
+} else if (sig1 > 1 || sig2 > 1) {
+    console.log("OR Operation Available")
+} else if (sig1 < 1 && sig2 < 1) {
+    console.log("Not Operation Available")
+}
+
+// ---------------------------------------------------------------------------
+
+/*
+Arrays in JS:
+- Arrays in JS have python like syntax
+- They use [] with objects seperated by ,
+- Arrays in JS like lists in python can take values of different datatypes to form a collection in an array
+*/
+
+var people = ["Anil", "Sai", "Anjali", "Nikhil", "D", "Nitya", "Sandeep", 8]
+
+console.log("Array Display: " + people)
+console.log("Value at 2nd Index: " + people[2])
+console.log("Value at 3rd Index: " + people[3])
+console.log("Length of the Array: " + people.length)
+
+// Checking for elements in the Array
+if (people.includes("Sai")) {
+    console.log("Sai is present in the list")
+}
+
+if (!people.includes(10)) {
+    console.log("10 is not present in the list")
+}
+
+// Slicing the elements of an Array
+console.log("First 4 Elements: " + people.slice(0, 4))
+console.log("Last 4 Elements: " + people.slice(4, 8))
+
+// Appending Elements
+console.log("Appended 9: " + people.push(9))
+console.log("Extending the list with a concat: " + people.concat([10, "Pratik", "Saatwik"]))
+
+/*
+- Join() added the subsection / extension of the array to each of the elements of the array
+- Concat() added the subsection / extension of an array at the end of the current array
+*/
+
+// Removing Elements
+console.log("Current Array: " + people)
+console.log("Removes and Returns the Last Element: " + people.pop())
+console.log("Removes and Returns the Last Element: " + people.pop(1))
+
+/*
+- In JS Array the Pop() always removes and returns the last element.
+- Thus it doesnt remove any element of the array at a given index on being parsed the index as a parameter.
+*/
+
+// ---------------------------------------------------------------------------
