@@ -1,0 +1,34 @@
+/* 
+The display block on the container provides the behaviour that if 
+there is shrinking in the size of the webpage then it will follow block
+*/
+.element {
+    width:200px;
+    height: 150px;
+    display: block;
+}
+
+/* 
+The display inline-block on the child provides the behaviour that if 
+there is shrinking in the size of the webpage then it will follow block
+else the elements will be styled using inline block
+*/
+.one {
+    background-color: green;
+    /* display: inline-block; */
+    position: relative;
+    float: left;
+}
+
+.two {
+    background-color: blue;
+    /* display: inline-block; */ 
+    position: relative;
+    float: right;
+}
+
+.three {
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+}

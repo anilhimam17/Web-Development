@@ -1,0 +1,55 @@
+/* Removing the margin for the body */
+body {
+  margin: 0px;
+}
+
+/* Styling the Header */
+.header {
+  background-color: cornsilk;
+  margin: 0px;
+}
+
+.heading {
+  font-size: 60px;
+  text-align: center;
+  color: darkcyan;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+/* Styling the Image */
+img {
+  width: 700px;
+  height: 500px;
+}
+
+/* Placing the images in a Grid View */
+.images {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gojo {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.oikawa {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.aomine {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+.keisuke {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}

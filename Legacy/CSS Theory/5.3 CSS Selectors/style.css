@@ -1,0 +1,32 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+/* Todo - 1: Setting all the p tags to color red */
+p {
+  color: red;
+}
+
+/* Todo - 2: Set the CSS of all elements with class note to font-size: 20 */
+.note {
+  font-size: 50;
+}
+
+/* Todo - 3: Set the CSS of all the elements eith an id of "id-select-demo" to color: green */
+#id-selector-demo {
+  color: green;
+}
+
+/* Todo - 4: Set the CSS of li elements with "value = 4" to color: blue */
+li[value = "4"]{
+  color: blue;
+}
+
+/* Todo - 5: Set the CSS of all the elements to center align */
+*{
+  text-align: center;
+}
