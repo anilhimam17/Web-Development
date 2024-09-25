@@ -49,5 +49,18 @@ header {
     display: inline;
 }
 
+.display_both {
+    margin: 10px;
+    display: block;
+}
+
+.display_both > p {
+    border: #232931 solid 5px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
 
 
